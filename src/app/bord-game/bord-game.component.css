@@ -1,0 +1,30 @@
+.tytle{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.input-box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-size-tytle{
+    font-size: 1.5em;
+}
+
+.mat-size-range, .mat-size-text, .mat-container{
+    margin-top: 10px;
+}
+
+.mat-container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}

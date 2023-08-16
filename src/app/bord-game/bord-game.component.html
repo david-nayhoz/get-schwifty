@@ -1,0 +1,10 @@
+<span class="tytle">Get Schwifty</span>
+<div class="input-box">
+    <label class="mat-size-tytle" dir="rtl">הגדר את גודל המטריצה:</label>
+    <input class="mat-size-range" type="range" min="3" max="15" [(ngModel)]="matSize" (input)="bildMatrix()">
+    <label class="mat-size-text">{{matSize}}</label>
+</div>
+<div class="mat-container">
+    matrix
+    <!-- <div *ngFor="let num of matSize">row</div> -->
+</div>
